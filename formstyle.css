@@ -1,0 +1,206 @@
+@font-face{
+        font-family: "Arvo";
+        src: url("fonts/Arvo.ttf");   
+}
+
+input{
+    transition-duration: 0.5s;
+}
+
+
+
+body{
+    background: rgb(224, 224, 224);
+    font-family:Arvo;
+}
+.workspace{
+    padding-top: 0.1em;
+    margin:auto;
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 8px rgb(167, 165, 165);
+    padding-left: 17px;
+    background-color: white;  
+    padding-bottom: 40px; 
+}
+
+.heading{
+    font-family:Arvo;
+    font-weight: bold;
+    color: grey;
+}
+
+.information ul{
+    font-family:Arvo;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    list-style: none;
+    padding-left:2px;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+
+img{
+    height: 27px;
+    width: 26px;
+}
+
+.firstname, .lastname,.email,.phone{
+    font-family:Arvo;
+    margin-top: 5px;
+    width:720px;
+    height: 22px;
+    margin-left: 10px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color: lightslategray;
+}
+
+
+.country{
+    font-family:Arvo;
+    margin-top: 3.5px;
+    width:680px;
+    height: 22px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color:black;
+}
+
+.city{
+    font-family:Arvo;
+    width:600px;
+    height: 22px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color: lightslategray;
+    margin-left: 10px;
+}
+
+.postcode{
+    font-family:Arvo;
+    width:212px;
+    height: 22px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color: lightslategray;
+    margin-left: 10px;
+}
+
+#etxt{
+    font-size: 15px;
+    color:lightslategray;
+}
+
+.address{
+    font-family:Arvo;
+    content: 'hello';
+    width: 1000%;
+    height: 22px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color:lightslategray;
+}
+
+input:focus{
+    outline: none;
+    transition-property: border-bottom;
+    transition-duration: 1.5s;
+    border-bottom: 2px solid blue;
+}
+
+
+.additional{
+    font-family:Arvo;
+    content: 'hello';
+    width: 940%;
+    height: 80px;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color:lightslategray;
+    outline: none;
+}
+
+.carddet{
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+.cardtype{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    font-family:Arvo;
+    margin-left: 15%;
+    color:lightslategray;
+    outline: none;
+}
+
+.cardtype2{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    font-family:Arvo;
+    margin-left:35%;
+    list-style: none;
+}
+
+.cardname,.cardnum,.cvv2,.expmonth,.expyear{
+    color:lightslategray;
+    outline: none;
+    border: 2px solid lightgrey;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    font-family:Arvo;
+}
+
+.cardname{
+    width: 620px;
+    margin-bottom: 40px;
+}
+.cardnum{
+    margin-right: 5px;
+    width: 400px;
+}
+.cvv2{
+    width: 212px;
+}
+
+.expmonth{
+    width: 50%;
+}
+.expyear{
+    width: 49.4%;
+}
+
+.sb{
+    margin-top: 2%;
+    margin-left: 88.8%;
+}
+
+#sbutton{
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 140px;    
+    color: whitesmoke;
+    background-color: rgb(38, 166, 154);
+}
+
+

@@ -1,83 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Checkout Form</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="formstyle.css" />
+   <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
     <div class="workspace">
-       <header class="heading"><h3>Checkout form</h3></header>
-       <div class="information">
-           <ul>
-               <li><img src="image/name.png"></li>
-               <li><input class="firstname" type="text" placeholder="First Name"></li>
-               <li><img src="image/name.png"></li>
-               <li><input class="lastname" type="text" placeholder="Last Name"></li>
-           </ul>
-           <ul>
-                <li><img src="image/email.png"></li>
-                <li><input class="email" type="text" placeholder="Email"></li>
-                <li><img src="image/phone.png"></li>
-                <li><input class="phone" type="text" placeholder="Phone"></li>
-            </ul>
-            <p id="etxt">Country</p>
-            <ul>
-                    <li><select class="country" type="text" placeholder="Country">
-                        <option value="Pakistan">Pakistan</option>
-                        <option value="India">India</option>
-                        <option value="Iran">Iran</option>
-                        <option value="China">China</option>
-                        <option value="Afghanistan">Afghanistan</option>
-                    </select></li>
-                    <li><input class="city" type="text" placeholder="City"></li>
-                    <li><input class="postcode" type="text" placeholder="Post code"></li>
-                </ul>
-                <ul>
-                    <li><li><input class="address" type="text" placeholder="Address"></li></li>
-                </ul>
-                <p id="etxt">Additional Information</p>
-                <ul>
-                        <li><textarea class="additional" type="text"></textarea></li>
-                </ul>
-       </div>
-       <h2>Card Details</h2>
-       <div class="carddet">
-           <div class="cardtype">
-               <p><input type="radio" value="Visa" name="sel">Visa</p>
-               <p><input type="radio" value="MasCard" name="sel">Master Card</p>
-               <p><input type="radio" value="PayPal" name="sel">PayPal</p>
-            </div>
-            <div class="cardtype2">
-                    <li><input type="text" placeholder="Name On Card" Class="cardname"></li>
-                    <li>
-                        <input type="number" placeholder="Card number" Class="cardnum">
-                        <input type="text" placeholder="CVV2" Class="cvv2">
-                    </li>
-                    <p id="etxt">Card exp month</p>
-                    <li>
-                            <select type="text" placeholder="Card number" Class="expmonth">
-                                <option>January</option>
-                                <option>Feburary</option>
-                                <option>March</option>
-                                <option>April</option>
-                                <option>May</option>
-                                <option>June</option>
-                                <option>July</option>
-                                <option>August</option>
-                                <option>September</option>
-                                <option>October</option>
-                                <option>November</option>
-                                <option>December</option>
-                            </select>
-                            <input type="number" placeholder="Year" Class="expyear">
-                    </li>
-                 </div>
-           
-       </div>
+        <div class="header">
+            <h4>Checkout form</h4>
+        </div>
+        <div class="col-1">
+          <div class="item1"></div>
+            <img src="image/name.png">
+            <input type="text" class="firstname" placeholder="First Name">
+            <img src="image/name.png" class="rightpic">
+            <input type="text" class="lastname" placeholder="Last Name">
+        </div>
 
-       <div class="sb">
-           <button id="sbutton">Submit Request</button>
-       </div>
+        <div class="col-2">
+                <img src="image/email.png">
+                <input type="email" class="email" placeholder="Email">
+                <img src="image/phone.png" class="rightpic">
+                <input type="tel" class="phone" placeholder="Phone">
+            </div>
+            <p id="extxt">Country</p>
+        <div class="col-3">
+                <select class="country">
+                    <option>Pakistan</option>
+                    <option>India</option>
+                    <option>Iran</option>
+                    <option>Afghanistan</option>
+                    <option>China</option>
+                </select>
+                <input type="text" class="city" placeholder="City">
+                <input type="number" class="postcode" placeholder="Post code">
+        </div>
+        <div class="col-4">
+                <input type="text" class="address" placeholder="Address">
+        </div>
+
+        <div class="col-5">
+                <textarea class="addinfo" placeholder="Additional Information"></textarea>
+        </div>
+        <div class="header">
+                <h2>Card Details</h2>
+            </div>
+        
+            <div class="cardd">
+                    <div class="cardo">
+                        <p><input type="radio" name="cs">Visa</p>
+                        <p><input type="radio" name="cs">Master Card</p>
+                        <p><input type="radio" name="cs">PayPal</p>
+                    </div>
+                    <div class="cardi">
+                            <li><input type="text" placeholder="Name On Card" Class="cardname"></li>
+                            <li>
+                                <input type="number" placeholder="Card number" Class="cardnum">
+                                <input type="text" placeholder="CVV2" Class="cvv2">
+                            </li>
+                            <p id="extxt2">Card exp month</p>
+                            <li>
+                                    <select type="text" placeholder="Card number" Class="expmonth">
+                                        <option>January</option>
+                                        <option>Feburary</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select>
+                                    <input type="number" placeholder="Year" Class="expyear">
+                            </li>
+                         </div>
+            </div>
+            <div class="sb">
+                <button class="subb">SUBMIT REQUEST</button>
+            </div>
     </div>
+
+    
 </body>
 </html>
+
+
+
+
